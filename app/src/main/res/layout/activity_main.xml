@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:textSize="20sp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:text="Home Screen" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:textSize="14sp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:text="@string/home_description" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height= "2dp"
+        android:background="@color/song_color" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/song_lists"
+            style="@style/CategoryStyle"
+            android:layout_alignParentLeft="true"
+            android:text="@string/song_track" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25dp"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:paddingRight="15dp"
+            style="@style/CategoryStyle"
+            android:text=">" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/artist_list"
+            style="@style/CategoryStyle"
+
+            android:text="@string/artist_track" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25dp"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:paddingRight="15dp"
+            style="@style/CategoryStyle"
+
+            android:text=">" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height= "2dp"
+            android:background="@color/song_color" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/viewed"
+            style="@style/CategoryStyle"
+
+            android:text="@string/view_track" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25dp"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:paddingRight="15dp"
+            style="@style/CategoryStyle"
+
+            android:text=">" />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height= "2dp"
+            android:background="@color/song_color" />
+
+    </RelativeLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height= "2dp"
+        android:background="@color/song_color" />
+
+
+</LinearLayout>

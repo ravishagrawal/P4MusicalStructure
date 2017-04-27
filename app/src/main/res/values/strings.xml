@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Musical Structure</string>
+    <string name="song_track">Search Music by Song Lists</string>
+    <string name="artist_track">Search Music by Artist</string>
+    <string name="view_track">Search Music by Most Viewed</string>
+    <string name="home_description">Select the best way you would like to play music </string>
+    <string name="playlist_description">Choose your music with hundreds of options available </string>
+    <string name="artist_des">Find the song from your favorite singer </string>
+    <string name="view_des">Choose top trending music from your favorite categories </string>
+</resources>
